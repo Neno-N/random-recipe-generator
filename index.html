@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Random Recipe</title>
+</head>
+<body>
+
+<!-- Nav Bar -->
+    <nav>
+        <div class="nav-header">
+            <div class="logo">
+                <h1 class="logo-heading">Recipe Generator</h1>
+            </div>
+            <button class="toggle-btn">
+                <img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" />
+            </button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">home</a></li>
+            <li><a href="#random-recipe" class="nav-link">random</a></li>
+            <li><a href="#breakfast" class="nav-link">breakfast</a></li>
+            <li><a href="#lunch" class="nav-link">lunch</a></li>
+            <li><a href="#dinner" class="nav-link">dinner</a></li>
+            <li><a href="#dessert" class="nav-link">dessert</a></li>
+        </ul>
+    </nav>
+<!-- End of Nav Bar -->
+
+<!-- Hero -->
+    <header class="hero" id="home">
+        <div class="heading">
+            <h1>Random Recipe Generator</h1>
+            <p>A list of simple and delicious recipes has been compiled for you to choose from.</p>
+            <p>Pick a recipe to follow or let us decide on what you'll be eating today!</p>
+        </div>
+    </header>
+<!-- End of Hero -->
+
+<!-- Random Recipe -->
+    <section id="random-recipe">
+        <h1>Generate <span>Recipe</span></h1>
+        <div class="random-container">
+            <img class="recipe-img" src="img/pexels-pixabay-326279.jpg" alt="image of recipe">
+            <div class="info">
+                <h2 class="name"></h2>
+                <p class="recipe"></p>
+                    <p class="no-see"><a class="span" href="" target="_blank">Click here</a> to go
+                    to original recipe page!</p>
+            </div>
+        </div>
+        <button class="random-btn">Get Random Recipe</button>
+    </section>
+<!-- End of Random Recipe -->
+
+<!-- Meal Container -->
+    <div class="allMeals-container">
+    <!-- Breakfast Section -->
+        <section id="breakfast" class="top-padding">
+            <h2>Breakfast <span>Recipes</span></h2>
+            <!-- <div class="meal-container">
+                <div class="meal">
+                    <img src=""
+                        alt="" class="meal-image">
+                    <h3 class="meal-name"></h3>
+                    <button class="fullRecipe-btn">View Full recipe</button>
+                </div>
+            </div> -->
+        </section>
+    <!-- End of Breakfast Section -->
+
+    <!-- Lunch Section -->
+    <section id="lunch" class="top-padding">
+        <h2>Lunch <span>Recipes</span></h2>
+    </section>
+    <!-- End of Lunch Section -->
+
+    <!-- Dinner Section -->
+    <section id="dinner" class="top-padding">
+        <h2>Dinner <span>Recipes</span></h2>
+    </section>
+    <!-- End of Dinner Section -->
+
+    <!-- Dessert Section -->
+    <section id="dessert" class="top-padding">
+        <h2>Dessert <span>Recipes</span></h2>
+    </section>
+    <!-- End of Dessert Section -->
+    </div>
+<!-- Meal Container -->
+
+<!-- Full Recipe -->
+    <!-- <section class="full-recipe">
+        <div>
+            <h3 class="fullRecipe-name"></h3>
+            <img src="" alt="" class="fullRecipe-img">
+            <p class="fullRecipe-recipe"></p>
+            <p><a class="fullRecipe-source" href="" target="_blank">Click here</a> to go
+                to original recipe page!</p>
+        </div>
+    </section> -->
+<!-- End of Full Recipe -->
+
+<!-- Footer -->
+    <footer>
+        <a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a>
+    </footer>
+    
+</body>
+</html>
